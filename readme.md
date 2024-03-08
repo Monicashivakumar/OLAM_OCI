@@ -7,7 +7,7 @@ The Oracle Cloud Infrastructure (OCI) Ansible Collection provides an easy way to
 
 ## Using OCI Ansible Collections
 
-To leverage OCI Ansible collections in Oracle Linux Automation Managerin order to automate and manager OCI Environments, there are two ways:
+To leverage OCI Ansible collections in Oracle Linux Automation Manager in order to automate and manage OCI Environments, there are two ways:
 
 * Including OCI Collections in SCM Based Projects: Detailed steps on using OCI Ansible collections is documented [here](https://docs.oracle.com/en/learn/olam-oci-collection/#create-a-playbook).
 * Customizing Execution Environments: Starting Oracle Linux Automation Manager v2.1, there is feature added to customize the execution environments to include required collections, OCI Anisble collections for example. 
