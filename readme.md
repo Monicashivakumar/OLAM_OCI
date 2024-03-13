@@ -17,7 +17,7 @@ Post installing Oracle Linux Automation Manager, here are some of the configurat
 <img src="images/users.png" alt="Users" title="Users">
 
 * Starting Oracle Linux Automation Manager v2, there is dedicated Credential type for OCI. Create a new OCI Credential and provide User OCID, Fingerprint, Tenancy OCID, Region and Private User Key.
-<img src="images/credentials.png" alt="Credentials" title="Crednetials">
+<img src="images/credentials.png" alt="Credentials" title="Credentials">
 
   
 * Proceed to create Inventories. Oracle Linux Automation Manager uses inventory to work against managed nodes or hosts in your infrastructure. This inventory contains a list of servers, their IP addresses, and other optional connection information.
@@ -33,7 +33,7 @@ Please refer to this [demo](https://www.youtube.com/watch?v=Fs3l5P-D_nk&t=190s) 
 * Create a Template pointing to the playbook and with all the above resources created.
   Here is an example output of a Job that lists the compartment details from OCI.
   
-
+<img src="images/job_output.jpeg" alt="Job_output" title="Joboutput">
   
 
 ## Documentation
