@@ -15,13 +15,16 @@ Post installing Oracle Linux Automation Manager, here are some of the configurat
 
 * By default, only Admin user gets created with Superuser privileges. Setup required Users, Teams, Organizations. 
 <img src="images/users.png" alt="Users" title="Users">
+
 * Starting Oracle Linux Automation Manager v2, there is dedicated Credential type for OCI. Create a new OCI Credential and provide User OCID, Fingerprint, Tenancy OCID, Region and Private User Key.
+  
 * Proceed to create Inventories. Oracle Linux Automation Manager uses inventory to work against managed nodes or hosts in your infrastructure. This inventory contains a list of servers, their IP addresses, and other optional connection information.
 A static inventory file works well if your infrastructure hardly changes.
 However, your infrastructure is likely in constant flux when using the cloud. Therefore it would be great to have a way to have your inventory dynamically updated as hosts come and go.
 Please refer to this [demo](https://www.youtube.com/watch?v=Fs3l5P-D_nk&t=190s) on setting up Dynamic Inventory.
 
 * Create a SCM based Project pointing to Git repositories that contains the Playbooks and importantly a requirements.yml to fetch OCI Ansible Collections. Refer to instructions documented [here](https://docs.oracle.com/en/learn/olam-oci-collection/#introduction).
+  
 * Create a Execution Environment that includes OCI Ansible Collections. Features such as The Builder Utility and Private Automation Hub can be used to customize Execution Environments. Example on creating Execution Environment is documented here:[Builder-Utility](https://docs.oracle.com/en/learn/olam-builder-custom/#introduction), [Private Automation Hub](https://docs.oracle.com/en/learn/olam-pah-manage-ee/#summary), [Using Execution Environments](https://docs.oracle.com/en/learn/olam-use-custom-ee/#add-a-host) in Oracle Linux Automation Manager.
 
 ## Documentation
