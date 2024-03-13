@@ -24,10 +24,17 @@ Post installing Oracle Linux Automation Manager, here are some of the configurat
 A static inventory file works well if your infrastructure hardly changes.
 However, your infrastructure is likely in constant flux when using the cloud. Therefore it would be great to have a way to have your inventory dynamically updated as hosts come and go.
 Please refer to this [demo](https://www.youtube.com/watch?v=Fs3l5P-D_nk&t=190s) on setting up Dynamic Inventory.
+<img src="images/inventories.jpeg" alt="Inventories" title="Inventories">
 
 * Create a SCM based Project pointing to Git repositories that contains the Playbooks and importantly a requirements.yml to fetch OCI Ansible Collections. Refer to instructions documented [here](https://docs.oracle.com/en/learn/olam-oci-collection/#introduction).
   
 * Create a Execution Environment that includes OCI Ansible Collections. Features such as The Builder Utility and Private Automation Hub can be used to customize Execution Environments. Example on creating Execution Environment is documented here:[Builder-Utility](https://docs.oracle.com/en/learn/olam-builder-custom/#introduction), [Private Automation Hub](https://docs.oracle.com/en/learn/olam-pah-manage-ee/#summary), [Using Execution Environments](https://docs.oracle.com/en/learn/olam-use-custom-ee/#add-a-host) in Oracle Linux Automation Manager.
+  
+* Create a Template pointing to the playbook and with all the above resources created.
+  Here is an example output of a Job that lists the compartment details from OCI.
+  
+
+  
 
 ## Documentation
 Elaborate documentation on Installation, User's Guide, and Administration is available below. Kindly refer to the provided information.
