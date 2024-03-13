@@ -14,6 +14,7 @@ https://docs.oracle.com/en/learn/olam-install/index.html#introduction
 Post installing Oracle Linux Automation Manager, here are some of the configuration steps that needs to be performed:
 
 * By default, only Admin user gets created with Superuser privileges. Setup required Users, Teams, Organizations. 
+<img src="images/users.png" alt="Users" title="Users">
 * Starting Oracle Linux Automation Manager v2, there is dedicated Credential type for OCI. Create a new OCI Credential and provide User OCID, Fingerprint, Tenancy OCID, Region and Private User Key.
 * Proceed to create Inventories. Oracle Linux Automation Manager uses inventory to work against managed nodes or hosts in your infrastructure. This inventory contains a list of servers, their IP addresses, and other optional connection information.
 A static inventory file works well if your infrastructure hardly changes.
