@@ -6,12 +6,12 @@ Based on the open source project AWX, this tool provides a Web interface for sch
 The Oracle Cloud Infrastructure (OCI) Ansible Collection provides an easy way to provision and manage resources in the Oracle Cloud using Ansible. The same collections can be leveraged from Oracle Linux Automation Manager to automate and manage Oracle Cloud Infrasturcture from Oracle Linux Automation Manager.
 
 ## Installation
-Oracle Linux Automation  Manager can be insalled on Oracle Linux 8 OCI instance itself or any On-Premise machines that can connect to OCI Environment.
-Refer to this quick [tutorial](https://docs.oracle.com/en/learn/olam-install/index.html#introduction) for Installing Oracle Linux Automation Manager.
+Oracle Linux Automation  Manager can be installed on Oracle Linux 8 OCI instance itself or any On-Premise machines that can connect to OCI Environment.
+Refer to this quick [tutorial](https://docs.oracle.com/en/learn/olam-install/index.html#introduction) for installing Oracle Linux Automation Manager.
 
 ## Post Deployment Steps
 
-Post installing Oracle Linux Automation Manager, here are some of the configuration steps that needs to be performed:
+Post installing Oracle Linux Automation Manager, here are some of the configuration steps that need to be performed:
 
 * By default, only Admin user gets created with Superuser privileges. Setup required Users, Teams, Organizations. 
 <img src="images/users.png" alt="Users" title="Users">
